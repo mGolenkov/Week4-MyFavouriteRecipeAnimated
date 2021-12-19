@@ -9,7 +9,16 @@ body {
     width: 50%;
     text-align: center;
     padding: 2rem;
-    
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes heading {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
 }
 
 .ingredients {
@@ -24,6 +33,17 @@ body {
     padding: 2rem;
     border: 1px solid black;
     margin: 0 auto;
+    position: relative;
+    animation: table;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards
+}
+
+@keyframes table {
+    0% {left: -100px}
+    50% {left: 100px}
+    100% {left: 0px}
 }
 
 .instructions {
@@ -41,9 +61,21 @@ body {
 }
 
 .instructions li {
-    font-family: ;
     padding: 5px;
+    position: relative;
+    animation: list;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: foreards;
 }
+
+@keyframes list {
+    0% {letter-spacing: normal;}
+    50% {letter-spacing: 1px;}
+    100% {letter-spacing: normal;}
+}
+
+
 
 footer {
     border: 1px solid black;
