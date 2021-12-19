@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(165, 245, 191);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.ingredients {
+    padding: 2rem;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.ingredients-table {
+    padding: 2rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.instructions {
+    padding: 2rem;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.instructions ol {
+    padding: 2rem;
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.instructions li {
+    font-family: ;
+    padding: 5px;
+}
+
+footer {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
